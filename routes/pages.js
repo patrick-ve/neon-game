@@ -16,6 +16,9 @@ router.get('/multi', (req, res) => {
 router.get('/online', (req, res) => {
     res.render('online')
 })
+router.get('/single', (req, res) => {
+    res.render('single')
+})
 
 
 module.exports = router
