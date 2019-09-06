@@ -1,0 +1,31 @@
+{
+  "name": "neon-game",
+  "version": "1.0.0",
+  "description": "A simple WebSocket based game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrick-ve/neon-game.git"
+  },
+  "keywords": [
+    "WebSockets",
+    "Node.js"
+  ],
+  "author": "Patrick van Everdingen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrick-ve/neon-game/issues"
+  },
+  "homepage": "https://github.com/patrick-ve/neon-game#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "socket.io": "^2.2.0"
+  }
+}
